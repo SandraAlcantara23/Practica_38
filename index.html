@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenamiento Quicksort</title>
+    <link rel="stylesheet" href="css/disQ.css">
+</head>
+<body>
+<div class="form-container">
+    <h1>Ordenamiento Quicksort</h1>
+
+    <label for="numbers">Ingrese números separados por comas:</label>
+    <input type="text" id="numbers">
+    <br>
+    <label for="order">Seleccione el orden:</label>
+    <select id="order">
+      <option value="asc">Ascendente</option>
+      <option value="desc">Descendente</option>
+    </select>
+    <br>
+    <button onclick="sortNumbers()">Ordenar</button>
+  
+    <div id="result"></div>
+</div> 
+    <script src="js/quick.js"></script>
+</body>
+</html>
